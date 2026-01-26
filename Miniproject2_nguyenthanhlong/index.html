@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Bài Thi</title>
+    <style>
+        :root {
+            --primary-color: #e67e22; /* Màu cam giống logo Firefox của bạn */
+            --dark-blue: #2c3e50;
+        }
+
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            background: #f0f2f5; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 350px;
+        }
+
+        .icon-box {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        h1 { 
+            color: var(--dark-blue); 
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p { color: #7f8c8d; margin-bottom: 30px; }
+
+        .btn-work {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(230, 126, 34, 0.3);
+        }
+
+        .btn-work:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(230, 126, 34, 0.4);
+            background: #d35400;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="icon-box">📂</div>
+    <h1>QUẢN LÝ BÀI THI</h1>
+    <p>Truy cập nhanh tệp tin bài làm của bạn</p>
+    
+    <a href="baithi.html" class="btn-open">MỞ BÀI THI NGAY</a>
+</div>
+
+</body>
+</html>
